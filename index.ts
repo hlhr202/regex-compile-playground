@@ -44,6 +44,9 @@ const match_a = createSingleMatcher("a");
 const match_b = createSingleMatcher("b");
 const match_c = createSingleMatcher("c");
 
+/**
+ * Test below
+ */
 const testConcat = () => {
     const match_a_b = createConcatMatcher(match_a, match_b); // /ab/
     const source1 = "ab";
